@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #b39ddb;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.latest {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.book-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.book-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+. .título da pagina {
+  texto-alinhar: centro;
+  preenchimento: 2rem;
+}
+
+. . .postar {
+  fundo-cor: branco;
+ raio fronteiriço: 8px;
+  preenchimento: 1,5rem;
+  margem: 1rem auto;
+ larga máxima: 700px;
+  caixa-sombra: 0 4px 8px rgba(0,0,0,0,05);
+}
+
+. . . Informações de contato {
+  texto-alinhar: centro;
+  margem: 2rem 0;
+}
+
+rodapé {
+  texto-alinhar: centro;
+  preenchimento: 2rem;
+  fundo-cor: #1f1f1f;
+  cor: branco;
+ margem superior: 2rem;
+}
+
+. . .btn {
+  exibição: bloco embutido;
+ margem superior: 1rem;
+  preenchimento: 0,5rem 1rem;
+  fundo-cor: #673ab7;
+  cor: branco;
+  texto-decoração: Nenhum;
+ raio fronteiriço: 4px;
+  transição: fundo 0,3s;
+}
+
+. . .btn:emparelhar {
+  fundo-cor: #5e35b1;
+}
+
+@mídia (largura máxima: 768px) {
+ .nav-links {
+    flex-direção: coluna;
+    lacuna: 1rem;
+  }
+}
