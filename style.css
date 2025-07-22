@@ -1,54 +1,51 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margem: 0;
+  preenchimento: 0;
+  tamanho caixa: border-box;
 }
 
-body {
-  font-family: 'Georgia', serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-  padding: 0 1rem;
+corpo {
+  fonte-família: 'Geórgia', serifa;
+  fundo-cor: #f0f0f9;
+  cor: #31313f;
+  preenchimento: 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1f1f1f;
-  padding: 1rem 2rem;
-  color: white;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+. .navbar {
+  exibição: flex;
+  justificar conteúdo: espaço-entre;
+  alinhar itens: centro;
+  fundo-cor: #31313f;
+  preenchimento: 1rem 2rem;
+  cor: branco;
+  índice z: 100;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+. .logotipo {
+  fonte-tamanho: 1,5rem;
+  peso da fonte: ousado;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+. .nav-links {
+  estilo lista: nenhum;
+  exibição: flex;
 }
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
+. .nav-links a {
+  cor: branco;
+  texto-decoração: nenhum;
+  margem esquerda: 1,5rem;
+  transição: cor 0,3s;
 }
 
-.nav-links a:hover {
-  color: #b39ddb;
+. .nav-links a:pairar {
+  cor: #b39dab;
 }
 
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background-color: #fff;
+. .herói {
+  texto-alinhar: centro;
+  preenchimento: 4rem 2rem;
+  fundo-cor: #fff;
 }
 
 .profile-pic {
@@ -64,89 +61,51 @@ body {
   margin-bottom: 1rem;
 }
 
-.about {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.7;
-}
-
-.latest {
-  padding: 2rem;
-  background-color: #f0f0f0;
-  text-align: center;
-}
-
-.books {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  padding: 2rem;
-}
-
-.book-card {
-  background-color: white;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 250px;
-  text-align: center;
-}
-
-.book-card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-. .título da pagina {
-  texto-alinhar: centro;
+. .sobre {
   preenchimento: 2rem;
+ larga máxima: 800px;
+  margem: 0 auto;
+  texto-alinhar: centro;
+  linha-altura: 1.7;
 }
 
-. . .postar {
+. .último {
+  preenchimento: 2rem;
+  fundo-cor: #f0f0f9;
+  texto-alinhar: centro;
+}
+
+. .livro-cartão {
   fundo-cor: branco;
  raio fronteiriço: 8px;
-  preenchimento: 1,5rem;
-  margem: 1rem auto;
- larga máxima: 700px;
-  caixa-sombra: 0 4px 8px rgba(0,0,0,0,05);
+  preenchimento: 1rem;
+  caixa-sombra: 0 4px 8px rgba(0,0,0,0,1);
+  largura: 250px;
+  margem: 1rem auto 0 auto;
+  texto-alinhar: centro;
 }
 
-. . . Informações de contato {
-  texto-alinhar: centro;
-  margem: 2rem 0;
+. .cartão de livro img {
+  largura: 100%;
+  alta: 200px;
+ justiça de objeto: capa;
+ raio fronteiriço: 4px;
 }
 
 rodapé {
   texto-alinhar: centro;
   preenchimento: 2rem;
-  fundo-cor: #1f1f1f;
-  cor: branco;
+  fundo: #31313f;
+  cor: #fff;
  margem superior: 2rem;
-}
-
-. . .btn {
-  exibição: bloco embutido;
- margem superior: 1rem;
-  preenchimento: 0,5rem 1rem;
-  fundo-cor: #673ab7;
-  cor: branco;
-  texto-decoração: Nenhum;
- raio fronteiriço: 4px;
-  transição: fundo 0,3s;
-}
-
-. . .btn:emparelhar {
-  fundo-cor: #5e35b1;
 }
 
 @mídia (largura máxima: 768px) {
  .nav-links {
     flex-direção: coluna;
     lacuna: 1rem;
+  }
+ .livro-cartão {
+    largura: 90%;
   }
 }
